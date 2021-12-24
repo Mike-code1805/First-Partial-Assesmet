@@ -5,7 +5,7 @@ const About = () => {
     return(
         <div className={styles.flexContainerCardAbout}>              
             <div className={styles.flexContainerBottomTitleAbout} >
-                Link Github: 
+                Link Github: https://github.com/Mike-code1805/First-Partial-Assesmet
             </div>
             <div className={styles.flexContainerBottomTitleAbout} >
                 Correo: miguelenrique1805@gmail.com
