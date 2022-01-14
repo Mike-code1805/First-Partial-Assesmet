@@ -1,12 +1,10 @@
 .flexContainerMain{
     flex-direction: row;
     flex-flow: row wrap;
-    border: 10px solid blue;
     display: flex;
     min-width: 500;
     justify-content: center;
     padding: 10px;
-    
 }
 
 .flexContainerCard{
@@ -23,44 +21,55 @@
 }
 
 .flexContainerImage{
-    border: 2px solid rgba(189, 181, 181, 0.952);
+
     font-size: 1rem;
-    width: 70px;
+    width: 120px;
+    height: 120px;
     justify-content: center;
-    padding: 50px;
     margin-top: 0px;
     margin-left: 75px;
     margin-bottom: 20px;
 }
+.flexContainerImage img{
+    width: 100%;
+    height: 100%;
+}
 
 .flexContainerBottom{
-    border: 2px solid purple;
+    
     flex-direction: row;
     margin-right: 5px;
     display: flex;
     flex-flow: wrap;
-    width: 345px; 
+    width: 330px; 
     height: auto;
-    justify-content: space-between;   
-    
+    justify-content: space-between;
 }
 
 .flexContainerBottomTitle{
-    border: 2px solid rgba(189, 181, 181, 0.952);
+    font-family: fantasy, 'Courier New', Courier, monospace;
 }
 
 .flexContainerBottomButton{
-    border: 2px solid violet;
     width: 100px; 
-    height: 14;   
-    background-color: blue;
-}
-.flexContainerBottomCount{
-    border: 2px solid yellow;
-    width: 100px;    
-    color:green;
-    font-size: 7px;
     height: 14;  
+    
+}
+.flexContainerBottomButton button{
+    background-color: #008CBA;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.flexContainerBottomCount{
+    width: 100px;    
+    color:blue;
+    font-size: 20px;
+    height: 14;  
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
 }
 
 .flexContainerCardAbout{
@@ -76,6 +85,29 @@
     border-radius: 10px;
 }
 
-.flexContainerBottomTitleAbout{
+.flexContainerCardAbout li{
+    font-family: cursive;
+}
 
+.flexContainerCardAbout h2{
+    font-family: serif;
+    color: rgb(225, 142, 65);
+}
+.flexContainerCardAbout h3{
+    font-family: serif;
+    color: rgb(56, 88, 56);
+}
+.flexContainerCardAbout h4{
+    font-family: fantasy, 'Courier New', Courier, monospace;
+    color: royalblue;
+}
+
+.flexContainerBottomTitleAbout{
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.flexContainerBottomTitleAbout li{
+    font-size: 10px;
+    font-family: cursive ;
 }

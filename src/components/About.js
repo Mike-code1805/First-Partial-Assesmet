@@ -35,11 +35,11 @@ const About = () => {
                     Nacionalidad: Peruano
                 </li>
             </div>
-            <div className={styles.flexContainerBottomTitleAbout} >
-                My nombre: Miguel Enrique Saca Accostupa
+            <div className={styles.flexContainerBottomTitle} >
+                Mi nombre: Miguel Enrique Saca Accostupa
             </div>                                                          
-            <div>                        
-                <img className={styles.flexContainerImage} src={'public/unnamed.webp'} alt=""/>
+            <div className={styles.flexContainerImage}>                        
+                <img src={'unnamed.webp'} alt=""/>
             </div> 
                     
         </div>
